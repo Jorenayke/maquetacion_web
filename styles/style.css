@@ -13,3 +13,24 @@ p {
 #parrafo {
     color: chocolate;
 }
+
+.background {
+    background-image: 
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    /* box-sizing: border-box;
+    margin: 0%;
+    padding: 0%; */
+}
+
+h1 {
+    background-color: blue;
+    width: 350px;
+    height: 75px;
+}
+
+h2 {
+    
+}
