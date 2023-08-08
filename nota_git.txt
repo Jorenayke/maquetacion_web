@@ -1,0 +1,74 @@
+		== Configuracion de GIT en el ordenador ==
+Metodo aplicable una vez descargado e instalado el programa GIT por primera vez.
+
+ 1) Configuracio del acceso a GIT en el ordenador con el nombre de usuario y un correo
+	electronico (este comando se efectuará para todos los proyectos y no solamente para uno).
+	< $ git config user.name Usuario_1 >
+	< $ git config user.email "correo@elect.com" >
+
+ 2) Indicar a GIT cual será el editor de texto usado para los proyectos (VSCode, en este caso).
+	< $ git config core.editor "code --wait" >
+	(el comando "--wait" para que GIT espere a que el editor de texto cierre para poder
+	commitear los cambios dentro de los archivos de texto).
+
+ 3) 
+
+
+		== Clonacion de proyecto ==
+Metodo para arrastrar el proyecto en la nuve en caso de haberlo borrado o perdido.
+
+ 1) 
+
+		== Proceso de creacion de Repositorio ==
+
+ 1) Determina la ubicacion en la que se abrio el Git Bash.
+	< $ pwd >
+
+ 2) Nos movemos a la carpeta deseada.
+	< $ cd desktop >
+	= Para aceder al escritorio y luego hubicar la carpeta del repositorio =
+	< $ cd nombre_carpeta >
+
+= de no poder ingresar a la carpeta deseada, se genera una con el nombre más conveniente y 
+se ingresa en ella =
+
+ 3) Creamos la carpeta donde se alojara el repositorio.
+	< $ mkdir nombre_carpeta >
+
+ 4) Inicio del repositorio en Git Bash.
+	< $ git init >
+
+ 5) Crear una nueva rama de trabajo para no afectar la rama principal.
+	< $ git checkout -b rama-1 >
+
+ 6) Commit para guardar los cambios realizados hasta ahora.
+	< $ git commit -m "Mensaje relevante" >
+
+ 7) En este punto se pueden agregar todos los archivos que se deseen agregar a la carpeta
+	del proyecto.
+
+= realizar el comando commit luego de cada vez que hace alguna moficiacion o inclucion de los
+archivos =
+
+ 8) Luego de cada cambio, se procede a agregar los archivos a la nube donde se almacena el
+	repositorio desde la ramma de trabajo ("rama-1").
+	< $ git push origin rama-1 >
+
+
+		== Configuracion subida de Repositorio a un servidor externo ==
+
+ 1) Se usa un enlace especia (proporcionado por el servidor) que permite subir los archivos del
+	repositorio a la nube.
+	< $ git remote add origin https://link.com/123 >
+
+ 2) Sube la rama de trabajo en la que se encuentre trabajando en el reposito.
+	< $ git push -u origin rama-1 >
+
+= Git Bash solisitará el inicio de sesion en el servidor para confirmar dicho procedimiento =
+
+ 3) Nuevamente, se realiza un pusheo 
+
+
+		== Edicion del archivo README.md ==
+
+ 1) 

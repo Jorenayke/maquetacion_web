@@ -1,0 +1,49 @@
+**Front: Encargado de la estetica de la pagina web. Lo visual.
+
+Etiquetas
+- header: indica que siempre va arriba de todo. Es la seccion superior
+- Footer: el pie de pagina.
+- Main: contenido de todas las secciones de la pagina
+- articulo: contener la infromacion de lectura de la pagina
+- adide: seccion de costado conteniendo informacion secundaria relacionada con la pagina pero no con el articulo principal.
+	tambien para publisidad.
+
+- Formularios: Permite al visitante interactuar con la pagina. Recoge informacion
+
+--------------------------------------
+** assets: carpeta donde se almacenan las imagenes, audios, archivos o documentos extras usados en la pagina.
+
+* Doctype: indica el lenguaje de programacion usado en el editor de texto
+* Head: solo para metadatos.
+ meta charset="utf-8" : 
+  . . . ="viewport" : 
+  . . . ="keyworks" : palabras clave para facilitar la busqueda en el buscador.
+  . . . ="description" : 
+  . . . ="author" : mi nombre o el del autor de la pagina.
+  . . . =""
+* header
+  * img :
+	src : ubicacion de la imagen.
+	alt : descripcion de la imagen.
+  * nav :
+  * ul : define una lista
+	li : lista 
+  * button
+* Main: el resto del contenido.
+  * div : generico
+  * section : 
+	h : titulos (conforme se agregan h1, h2, h3 se hace más pequeño 	mientras el numero crezca más). (siempre habrá un solo h1 en toda la 	pagina)
+		** jumbotron : presentacion de la pagina.
+		** lorem ipsum: 
+	p : parrafo
+	  class : determina el tipo de parrafo que se aplicará.
+	  id : # (un numeral para seleccionarlo en CSS) tiene mayor 	espesifidad
+  * form : formulario de relleno.
+	input : 
+
+  * a : permite navegar entre las paginas del documento
+
+-----------------------------------------------
+!important : permite que se haga de mayor uso
+div p : selector que hace los parrafos dentro de una division
+div + p : espesifica que estén dentro de dicha division y no dentro de otra division que 

@@ -1,0 +1,10 @@
+vs studio
+es un editor de codigo especializado para la programacion web.
+Se pueden agregar extenaciones para modificar la forma en que se ve la ventana:
+	- Spanish Language Pack: Para traducir el editor en Español.
+	- LiveServer: Permite crar un servidor virtual para visualizar el progreso de la pagina.
+	- material icons: Le da iconos a los archivos y/o carpetas para organizar mejor todo el contenido de nuestra pagina web.
+
+Maquetacion web
+ - etiquetas: Todas las etiquetas siempre tienen su inicio y su cierre. El cierre está representado con un slash "/" (<html> ... </html>). Las etiquetas van de forma jerargica.
+ - Box mode: Esta es la manera en la que las etiquetas de diviswn y subdividen entre sí, es decir, una dentro de otra, como una caja.
