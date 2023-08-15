@@ -1,0 +1,21 @@
+media query
+permite que los estilos agregados a la pagina se adapten segun el tamaño del viewport 
+    @media : 
+        max-width : menor que
+        min-width : mayor que
+    @keyfranes : 
+        animations :
+
+    :hover : hacer que al colocar el mouse sobre el elemento, se genere una animacion preestablecida por el keyframes
+        animation-duration : tiempo de duracion de la animacion
+        animation-name : nombre preestablecido en el keyframes
+        animation-fill-mode (backward) : permite que el elemento regrese a su posiciion inicial
+        animation-delay : tiempo de espera al actuar la animación.
+        animation-time-fuction (ease-in-out) : los elementos se hacen un poco más lentes, evitando que la animacion se vea "robotica" (en el inicio y en el final)
+
+
+----------------------------------------------------------------------------
+
+Tailwindcss (libreria que permite ver los estilos que se puede hacer a nuestra pagina "responsive")
+stackoverflow (libreria para elementos de query)
+csshake (libreria de animaciones)

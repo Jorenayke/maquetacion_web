@@ -40,13 +40,22 @@ box-sizing :
 Margin : empuja las cajas y les agrega una separacion. No se colicionan entre si
 border : esta entre el magin y el borde de la caja
     dashed : segmenta la linea del borde.
-padding : es la distancia entre el contenido de la caja y su orilla. Sirve para comprimir el contenido de la caja.
+padding : es la distancia entre el contenido de la caja y su orilla. Sirve para comprimir el contenido de la caja (siempre aplicado al contanier).
 visibility : deja 
 Opacity : 
 display : para indicar si un objeto exciste o no. Permite hacer que ciertos contenidos sean visibles o no para los usuarios
     none : el usuario tiene que hacer una accion antes de que le aparezca el elemento
     block : Toma el ancho de la pantalla y hace que sus elementos se dispercen hacia los lados de la ventana
+    inline : los elementos se organizan sobre la linea horizontal
+    grid : permite ordenar tanto columnas como filas
+        grid-template-columns : oder de las columnas
+        grid-template-rows : orden de las filas
 
+            repeat : repite el numero de elementos (columnas o filas)
+                auto-fill : permite rellenar 
+                minmax : 
+                        -- repeat(auto-fill, minmax(200px, 1fr) --
+        grid-auto-rows : 
 box-shadow : hace sombras a la caja. (no usar sombras muy fuertes para las cajas)
             (En la web: generador de sombras css)
 
@@ -65,12 +74,13 @@ transform :
 
 display-flex : comando aplicado directamente al contenedor. Para ordenar los elementos dentro del contenedor.
 flex-direction : indica la direccion a la que se distribuyen los elementos del contenedor.
-justify-content : orden horinzontal
-    space-betweeng : ordena el espacio entre los elementos en el viewport
+justify-content : orden horinzontal del contenedor (eje X) (solo en flex)
+    space-betweeng : ordena el espacio entre los elementos en el viewport en el eje vertical. 
     space-around : equilibra el espacio entre elementos
     space-evenly : 
+justify-items : ordena el contenido 
 flex-wrap:
-align-items : orden vertical
+align-items / aline-content : orden vertical ("align-items" solo en flex)
 
 ----------------------------------------------------------
 
