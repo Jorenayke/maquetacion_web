@@ -54,7 +54,7 @@ display : para indicar si un objeto exciste o no. Permite hacer que ciertos cont
             repeat : repite el numero de elementos (columnas o filas)
                 auto-fill : permite rellenar 
                 minmax : 
-                        -- repeat(auto-fill, minmax(200px, 1fr) --
+                        -- repeat-auto-fill, minmax(200px, 1fr) --
         grid-auto-rows : 
 box-shadow : hace sombras a la caja. (no usar sombras muy fuertes para las cajas)
             (En la web: generador de sombras css)

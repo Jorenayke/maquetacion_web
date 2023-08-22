@@ -1,36 +1,68 @@
-p {
-    color: blueviolet;
-}
-
-.parrafo {
-    color: brown;
-}
-
-.adicional {
-    color: blue;
-}
-
-#parrafo {
-    color: chocolate;
-}
-
-.background {
-    background-image: 
-}
-
 * {
-    font-family: 'Courier New', Courier, monospace;
-    /* box-sizing: border-box;
-    margin: 0%;
-    padding: 0%; */
+    margin: 0;
+    padding: 0;
+    block-size: auto;
+    text-decoration: none;
+    list-style: none;
 }
 
-h1 {
-    background-color: blue;
-    width: 350px;
-    height: 75px;
+.navbar {
+    background-color: #F0E2ED;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin: auto;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-h2 {
-    
+.logo {
+    height: 50px;
+    /* background-color: brown; */
+    margin: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Monda', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-color: black;
+}
+
+.op {
+    align-items: normal;
+}
+
+.Titulo1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 18px;
+    text-shadow: #f0e2edc9 3px 2px;
+    letter-spacing: 5px;
+}
+
+body {
+    background-color: #D82585;
+    background-image: ;
+}
+
+.imagen {
+    background-color: #F0E2ED;
 }
